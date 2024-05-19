@@ -6,3 +6,5 @@
 3. Zaidan Putra Daffa (040)
 4. Hanif Tio Ramadhan (042)
 5. Wildanul Haq (045)
+
+Sensor Peringatan Gempa Bumi adalah
