@@ -1,4 +1,3 @@
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar1.jpg?raw=true)
 # Projek-Mikrokontroler
 
 " Sensor Peringatan Gempa Bumi"
