@@ -1,3 +1,4 @@
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Banner%20Sistem%20Peringatan%20Gempa%20Bumi%20(1).png?raw=true)
 # Projek-Mikrokontroler
 
 " Sensor Peringatan Gempa Bumi"
