@@ -10,32 +10,36 @@
 ---
 ### Komponen 
 1. Arduino Uno
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/WhatsApp%20Image%202024-05-21%20at%2010.19.06.jpeg?raw=true)
 2. Amplifier PAM8403 3W
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Modul%20Pam%208403%20Amplifier.jpeg?raw=true)
 3. Speaker 5W
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Speaker.jpeg?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Spesifikasi%20Speaker.jpeg?raw=true)
 4. Sensor Getar SW-420
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Sensor%20SW-420.jpeg?raw=true)   
 5. Push Button
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Push%20Button.jpeg?raw=true)
 ---
 ### Schematic & PCB
 #### Schematic 
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Schematic%20revisi.jpeg?raw=true)
 #### PCB
--Bottom
+##### -Bottom
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/PCB%20bottom.png?raw=true)
--Top
+##### -Top
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/PCB%20top.png?raw=true)
 ---
 ### Simulasi
 #### Simulasi Rangkaian By Wokwi
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Simulasi%20Rangkaian.jpeg?raw=true)
 #### Video Simulasi
-https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/f538d13b-87cd-4e21-af8c-41d94d32ddd0
 ---
 ### Desain 3D
 #### Case
-![image](https://private-user-images.githubusercontent.com/168980365/332011799-27cf8ef2-b2db-4984-9890-8a5b82389470.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYyMTMwOTMsIm5iZiI6MTcxNjIxMjc5MywicGF0aCI6Ii8xNjg5ODAzNjUvMzMyMDExNzk5LTI3Y2Y4ZWYyLWIyZGItNDk4NC05ODkwLThhNWI4MjM4OTQ3MC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMFQxMzQ2MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWUzMjhmYTMxNDM0MzJlMzFhZGIwNWE0YzdiNTZkZWVhMWM5MzE3M2U0MzFmYTVmNWI4Zjg1YjliN2Y1ZjI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lTELJe_aQjTthVZoYjhj5o66YddkxjqTzESKrU709fg)
-![image](https://private-user-images.githubusercontent.com/168980365/332011794-13a77ad2-4407-45b9-a550-720ab7ae6645.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYyMTMwOTMsIm5iZiI6MTcxNjIxMjc5MywicGF0aCI6Ii8xNjg5ODAzNjUvMzMyMDExNzk0LTEzYTc3YWQyLTQ0MDctNDViOS1hNTUwLTcyMGFiN2FlNjY0NS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMFQxMzQ2MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MjcyODNkMmJkOTFkMWM2NjNhNmFhZDliMmVhZmY4MTlkNDk1MmFmMzg4MTc3ZjQ0NWU0MmNlNWE2MjA2MTMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.csiEc2aya-M1h4WOQ_dw4LAAkKW44I0UC6iHwJ5nxwk)
-![image](https://private-user-images.githubusercontent.com/168980365/332011803-15720897-38a8-4007-a7d2-a441e157e874.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYyMTMwOTMsIm5iZiI6MTcxNjIxMjc5MywicGF0aCI6Ii8xNjg5ODAzNjUvMzMyMDExODAzLTE1NzIwODk3LTM4YTgtNDAwNy1hN2QyLWE0NDFlMTU3ZTg3NC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMFQxMzQ2MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NzllNmE2YmI0MThhZWFmM2Y0N2UwZmExOTNmNDlhMTMwZjU1MjdlNTYwMzhjYmY0OTA2YmQxYjI3ZjIxZmU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.sL8PeP3DUXNWRi0HJsobhpAaqG5kiSLcw9PBRSv4uws)
-![image](https://private-user-images.githubusercontent.com/168980365/332011808-cbb749f7-1e51-4b30-94ac-c4009cb50c6e.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYyMTMwOTMsIm5iZiI6MTcxNjIxMjc5MywicGF0aCI6Ii8xNjg5ODAzNjUvMzMyMDExODA4LWNiYjc0OWY3LTFlNTEtNGIzMC05NGFjLWM0MDA5Y2I1MGM2ZS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMFQxMzQ2MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZWU4M2JkOWM1OWI0YzI1MTIzYWMzZTA4NDI2MTVhMGM5OWIyYjJmOGZkNDMyZGIyNmMwMjJmMWM4NGM5ZTA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lZCT9OFKjua2o6ZfYPnh_14PQX3dWZg3MjRekzKJMeU)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar3.jpg?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar2.jpg?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar4.jpg?raw=true)
 #### PCB
 
 
