@@ -43,8 +43,9 @@ Link video tutorial schematic
 ### Simulasi
 #### Simulasi Rangkaian By Wokwi
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Simulasi%20Rangkaian.jpeg?raw=true)
+[Simulasi Wokwi](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Video%20Simulasi%20(WOKWI).mp4)
 #### Video Simulasi
-[Simulasi](https://drive.google.com/file/d/1QlbdK9YzNm4ZqipOReZaiWnuYBX64FdY/view?usp=sharing)
+[Simulasi Real](https://drive.google.com/file/d/1QlbdK9YzNm4ZqipOReZaiWnuYBX64FdY/view?usp=sharing)
 ---
 ### Desain 3D
 #### Case
