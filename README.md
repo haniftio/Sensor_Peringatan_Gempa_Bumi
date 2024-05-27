@@ -41,5 +41,21 @@
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar2.jpg?raw=true)
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar4.jpg?raw=true)
 #### PCB
+---
+### Convert Audio
+#### Audacity
+1. Buka software "Audacity".
+2. Lakukan perekaman suara dengan menekan icon record (R) dan stop untuk selesai, lalu hasil suara akan muncul seperti gambar.
+3. Blok bagian suara, kemudian menuju ke effect - Noise removal and repair - noise reduction.
+4. Setelah muncul menu, kemudian pilih get noise profile - tekan ok.
+
+   Hal ini bertujuan untuk mengurangi noise pada hasil rekaman.
+5. Jika sudah dipastikan rekaman bagus, selanjutnya menuju menu file - export audio.
+6. Samakan ketentuan export dengan gambar dibawah, jika selesai tekan export. Pastikan file export berformat ".RAW".
+#### HXD
+1. Buka software "HXD".
+2. Pilih menu file - open, kemudian pilih file rekaman yang telah diekspor sebelumnya dengan format ".RAW". Selanjutnya akan muncul seperti gambar dibawah.
+3. Selanjutnya pilih menu file - export - Bahasa C - dan pilih lokasi penyimpanan.
+4. 
 
 
