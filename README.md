@@ -30,7 +30,9 @@ Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari ge
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Schematic%20revisi.jpeg?raw=true)
 
 Link video tutorial schematic
-[Links](https://drive.google.com/file/d/1eqdpExC68RNHlASmLvnk3lectnYcoyYX/view?usp=sharing)
+
+   [Links](https://drive.google.com/file/d/1eqdpExC68RNHlASmLvnk3lectnYcoyYX/view?usp=sharing)
+
 #### PCB
 ##### Bottom
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/PCB%20bottom.png?raw=true)
@@ -46,6 +48,13 @@ Link video tutorial schematic
 [Simulasi Wokwi](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Video%20Simulasi%20(WOKWI).mp4)
 #### Video Simulasi
 [Simulasi Real](https://drive.google.com/file/d/1QlbdK9YzNm4ZqipOReZaiWnuYBX64FdY/view?usp=sharing)
+
+   
+   
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc8c-8762-426a-bbc6-93460e4587b7
+
+
+
 ---
 ### Desain 3D
 #### Case
