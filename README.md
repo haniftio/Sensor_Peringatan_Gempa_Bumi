@@ -4,14 +4,18 @@
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Blok%20Diagram.png)
 
 Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari gempa yang berpotensi merusak hingga membahayakan nyawa. Saat getaran terdeteksi oleh sensor SW-420, maka selanjutnya sinyal akan dikirimkan ke arduino uno dan akan mengaktifkan speaker yang berbunyi mengikuti getarannya. Push button yang ada memungkinkan penguna untuk menonaktifkan buzzer jika diperlukan.
+
 ---
+
 ### Anggota
 1. M. Dava Wardana - Design 3D (034)
 2. M. Zakimaajid Kusuma - Program (039)
 3. Zaidan Putra Daffa - Schematic & PCB (040)
 4. Hanif Tio Ramadhan - Dokumentasi (042)
 5. Wildanul Haq - Schematic & PCB (045)
+   
 ---
+
 ### Komponen 
 1. Arduino Uno
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Arduino%20Uno.jpeg)
@@ -24,14 +28,18 @@ Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari ge
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Sensor%20SW-420.jpeg?raw=true)   
 5. Push Button
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Push%20Button.jpeg?raw=true)
+
 ---
+
 ### Schematic & PCB
 #### Schematic 
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Schematic%20revisi.jpeg?raw=true)
 
 Link video tutorial schematic
 
-   [Links](https://drive.google.com/file/d/1eqdpExC68RNHlASmLvnk3lectnYcoyYX/view?usp=sharing)
+
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e40ea2a-31ad-45f1-9836-06c8c62fbed4
+
 
 #### PCB
 ##### Bottom
@@ -41,21 +49,21 @@ Link video tutorial schematic
 
 ##### Hasil Cetak PCB
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Hasil%20cetak%20PCB.jpeg)
+
 ---
+
 ### Simulasi
 #### Simulasi Rangkaian By Wokwi
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Simulasi%20Rangkaian.jpeg?raw=true)
-[Simulasi Wokwi](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Video%20Simulasi/Video%20Simulasi%20(WOKWI).mp4)
-#### Video Simulasi
-[Simulasi Real](https://drive.google.com/file/d/1QlbdK9YzNm4ZqipOReZaiWnuYBX64FdY/view?usp=sharing)
 
-   
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/7f55c2c7-f6d9-42f1-bedd-7ec5bf96ce46
+
+#### Video Simulasi
    
 https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc8c-8762-426a-bbc6-93460e4587b7
 
-
-
 ---
+
 ### Desain 3D
 #### Case
 ##### Tampak Depan
@@ -71,8 +79,12 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc
 dan
 [Tutup Box](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Tutup.stl)
 
-#### PCB
+##### Hasil Cetak 3D
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Hasil%20Cetak.jpeg)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Hasil%20Cetak%202.jpeg)
+
 ---
+
 ### Convert Audio
 #### Audacity
 1. Buka software "Audacity".
@@ -111,6 +123,8 @@ dan
 
    ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Audio%20convert/Hxd-3.png)
 
-   File dengan bahasa C itu berisi HEX dari suara rekaman yang akan dimasukkan kedalam program.
+4. File dengan bahasa C itu berisi HEX dari suara rekaman yang akan dimasukkan kedalam program.
+   
+   ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Audio%20convert/Hex%20di%20Visual%20studio.png)
 
 
