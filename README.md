@@ -87,6 +87,9 @@ dan
 ---
 
 ### Convert Audio
+
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/96f91cc5-b915-423b-ad51-a41b3fe97962
+
 #### Audacity
 1. Buka software "Audacity".
 
