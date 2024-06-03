@@ -13,15 +13,15 @@ volatile uint16_t count = 0;
 ISR(TIMER0_COMPA_vect){
   if (play){
     if (track == 0){
-      OCR1A = ~pgm_read_byte(&suara[count]); // Play track 0
+      OCR1B = ~pgm_read_byte(&gempa[count]); // Play track 0
       count++;
-      if (count >= sizeof(suara)){
+      if (count >= sizeof(gempa)){
         play = false;
-        OCR1A=0;
+        OCR1B = 0;
       }
     }
     // else if (track == 1){
-    //   OCR1A = ~pgm_read_byte(&akhir[count]); // Play track 1
+    //   OCR1B = ~pgm_read_byte(&akhir[count]); // Play track 1
     //   count++;
     //   if (count >= sizeof(akhir))
     //     play = false;
@@ -41,10 +41,14 @@ int main(void){
   sei();
 
   while (1){
-    if ((PIND & _BV(PIND2)) && !play){ // PD2 as track 0 selector
-      play = true;
-      track = 0;
-      count = 0;
+    if (!(PIND & _BV(PIND2)) && !play){ // PD2 as track 0 selector, detect LOW state
+      _delay_ms(50); // Debounce delay
+      if (!(PIND & _BV(PIND2))){ // Confirm button press
+        play = true;
+        track = 0;
+        count = 0;
+        while (!(PIND & _BV(PIND2))); // Wait for button release
+      }
     }
     // else if (!(PIND & _BV(PIND3))){ // PD3 as track 1 selector
     //   play = true;
@@ -55,10 +59,10 @@ int main(void){
 }
 
 void initPWM(){
-  DDRB |= _BV(DDB1); // Set PB1 (OC1A) as output for PWM
-  TCCR1A = _BV(WGM10) | _BV(COM1A1); // Fast PWM, 8-bit
+  DDRB |= _BV(DDB3); // Set PB3 (OC1B) as output for PWM
+  TCCR1A = _BV(WGM10) | _BV(COM1B1); // Fast PWM, 8-bit
   TCCR1B = _BV(WGM12) | _BV(CS10);   // Fast PWM, no prescaler
-  OCR1A = 200;
+  OCR1B = 200;
 }
 
 void TimerInit(){
