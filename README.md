@@ -1,4 +1,4 @@
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Banner%20Sistem%20Peringatan%20Gempa%20Bumi%20(1).png?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Banner%20Baru%20Project%20Akhir%20Mikrokontroler%20(1).png)
 ### Sistem peringatan gempa bumi menggunakan arduino uno dan sensor SW-420. Sensor ini mampu mendeteksi getaran dan gerakan halus, dengan mengintegrasikan sensor ini ke dalam sistem mikrokontroler dapat menciptakan perangkat yang dapat memberikan peringatan suara setelah gerakan terdeteksi 
 
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Blok%20Diagram.png)
@@ -33,19 +33,19 @@ Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari ge
 
 ### Schematic & PCB
 #### Schematic 
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Schematic%20revisi.jpeg?raw=true)
-
-Link video tutorial schematic
-
 
 https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e40ea2a-31ad-45f1-9836-06c8c62fbed4
 
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Schematic%20Final.PNG)
 
 #### PCB
+
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/ea0ed3fb-d7c9-4753-bc33-b95866b19864
+
 ##### Bottom
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/PCB%20bottom.png?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/Botton%20final.png)
 ##### Top
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/PCB%20top.png?raw=true)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/top%20final.png)
 
 ##### Hasil Cetak PCB
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Hasil%20cetak%20PCB.jpeg)
@@ -66,6 +66,7 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc
 
 ### Desain 3D
 [Tutorial 3D](https://youtu.be/_sKo3YDpDic)
+[Thingiverse](https://www.thingiverse.com/thing:6647639)
 #### Case
 ##### Tampak Depan
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Desain%20Projek/Gambar1.jpeg)
