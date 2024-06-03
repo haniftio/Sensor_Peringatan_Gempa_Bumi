@@ -66,6 +66,7 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc
 
 ### Desain 3D
 [Tutorial 3D](https://youtu.be/_sKo3YDpDic)
+
 [Thingiverse](https://www.thingiverse.com/thing:6647639)
 #### Case
 ##### Tampak Depan
