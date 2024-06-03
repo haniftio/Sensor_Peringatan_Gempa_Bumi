@@ -49,14 +49,17 @@ int main(void) {
   sei();
 
   bool button_pressed = false; // Flag to track button press
+  bool switch_active = false;  // Flag to track switch state
 
   while (1) {
     // Check the state of the switch first
-    if (PIND & _BV(PIND3)) { // PD3 as switch, detect HIGH state
+    if (!(PIND & _BV(PIND3))) { // PD3 as switch, detect LOW state
+      switch_active = true; // Switch is active
       play = false;
-      OCR1A = 0; // Stop playing when switch is HIGH
+      OCR1A = 0; // Stop playing when switch is LOW
     } else {
-      // If switch is LOW, then check the push button
+      switch_active = false; // Switch is inactive
+      // If switch is HIGH, then check the push button
       if (!(PIND & _BV(PIND2))) { // PD2 as track 0 selector, detect LOW state
         _delay_ms(50); // Debounce delay
         if (!(PIND & _BV(PIND2))) { // Confirm button press
