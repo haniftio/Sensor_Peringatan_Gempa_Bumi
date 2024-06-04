@@ -1,9 +1,11 @@
+# TERRADETECT
+
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Banner%20Baru%20Project%20Akhir%20Mikrokontroler%20(1).png)
 ### Sistem peringatan gempa bumi menggunakan arduino uno dan sensor SW-420. Sensor ini mampu mendeteksi getaran dan gerakan halus, dengan mengintegrasikan sensor ini ke dalam sistem mikrokontroler dapat menciptakan perangkat yang dapat memberikan peringatan suara setelah gerakan terdeteksi 
 
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Blok%20Diagram.png)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Image/Blok%20Diagram%20New.png)
 
-Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari gempa yang berpotensi merusak hingga membahayakan nyawa. Saat getaran terdeteksi oleh sensor SW-420, maka selanjutnya sinyal akan dikirimkan ke arduino uno dan akan mengaktifkan speaker yang berbunyi mengikuti getarannya. Push button yang ada memungkinkan penguna untuk menonaktifkan buzzer jika diperlukan.
+Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari gempa yang berpotensi merusak hingga membahayakan nyawa. Saat getaran terdeteksi oleh sensor SW-420, maka selanjutnya sinyal akan dikirimkan ke arduino uno dan akan mengaktifkan speaker yang berbunyi mengikuti getarannya. Switch yang ada memungkinkan penguna untuk menonaktifkan sistem jika diperlukan.
 
 ---
 
@@ -26,8 +28,8 @@ Fitur utama dari sistem ini adalah kemampuannya untuk mendeteksi getaran dari ge
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Spesifikasi%20Speaker.jpeg?raw=true)
 4. Sensor Getar SW-420
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Sensor%20SW-420.jpeg?raw=true)   
-5. Push Button
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Push%20Button.jpeg?raw=true)
+5. Switch
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Switch.jpeg)
 
 ---
 
@@ -48,7 +50,8 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/ea0ed3
 ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Schematic/top%20final.png)
 
 ##### Hasil Cetak PCB
-![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/Hasil%20cetak%20PCB.jpeg)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/PCB%20Bagian%20Atas.jpeg)
+![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Komponen/PCB%20Bagian%20Bawah.jpeg)
 
 ---
 
@@ -59,8 +62,15 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/ea0ed3
 https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/7f55c2c7-f6d9-42f1-bedd-7ec5bf96ce46
 
 #### Video Simulasi
-   
-https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/9e34dc8c-8762-426a-bbc6-93460e4587b7
+
+[simulasi](https://youtu.be/qTaaildXK70)
+
+Demo
+
+
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/5472bf27-5641-4703-8057-1912f4a2773c
+
+
 
 ---
 
@@ -132,5 +142,13 @@ https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/96f91c
 4. File dengan bahasa C itu berisi HEX dari suara rekaman yang akan dimasukkan kedalam program.
    
    ![image](https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/blob/main/Dokumentasi/Audio%20convert/Hex%20di%20Visual%20studio.png)
+
+---
+
+#### Proses Pengerjaan
+
+https://github.com/haniftio/Sensor_Peringatan_Gempa_Bumi/assets/168505785/a3147a82-8af2-409b-9a54-c7f608828346
+
+
 
 
